@@ -1,0 +1,14 @@
+{
+  "name": "ai-skills",
+  "description": "Skills compartilhadas da Hi-App Desenvolvimento",
+  "owner": {
+    "name": "Hi-App Desenvolvimento"
+  },
+  "plugins": [
+    {
+      "name": "ai-skills",
+      "source": "./",
+      "description": "Revisão de tasks do ClickUp, configuração de SDD e criação de specs"
+    }
+  ]
+}

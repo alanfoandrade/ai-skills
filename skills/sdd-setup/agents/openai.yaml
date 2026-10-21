@@ -1,0 +1,4 @@
+interface:
+  display_name: "Configuração de SDD"
+  short_description: "Configura convenções, templates e fluxo SDD do projeto"
+  default_prompt: "Use $sdd-setup para configurar Spec-Driven Development respeitando as convenções deste projeto."

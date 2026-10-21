@@ -1,0 +1,11 @@
+interface:
+  display_name: "Specs a partir do ClickUp"
+  short_description: "Cria specs SDD rastreáveis a tasks e subtasks do ClickUp"
+  default_prompt: "Use $clickup-create-specs para criar as specs da task do ClickUp informada conforme o padrão SDD do projeto."
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "clickup"
+      description: "Servidor MCP oficial do ClickUp para ler tasks, subtasks e comentários"
+      transport: "streamable_http"
+      url: "https://mcp.clickup.com/mcp"

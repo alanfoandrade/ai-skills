@@ -1,0 +1,11 @@
+interface:
+  display_name: "Revisão de tasks do ClickUp"
+  short_description: "Clarifica tasks e subtasks comparando com o código"
+  default_prompt: "Use $clickup-review-task para revisar a task do ClickUp informada e suas subtasks com base no código do projeto."
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "clickup"
+      description: "Servidor MCP oficial do ClickUp para ler e atualizar tasks"
+      transport: "streamable_http"
+      url: "https://mcp.clickup.com/mcp"
